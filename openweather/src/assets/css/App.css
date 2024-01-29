@@ -12,29 +12,189 @@ body {
 
 .card {
   max-width: 60%;
+  box-shadow: 11px 11px 9px 6px rgba(0, 0, 0, 0.5)
 }
 
 
 .card-title {
   position: absolute;
   padding: 10px;
+  margin-top: 30px;
 }
 
 .card-date {
   position: absolute;
   padding: 10px;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .card-temp{
   position: absolute;
   padding-left:10px ;
-  margin-top: 200px;
+  margin-top: 300px;
   font-size: 50px;
 }
  
 .card-desc{
   position: absolute;
   padding-left: 20px;
-  margin-top: 260px;
+  margin-top: 350px;
+}
+
+.img-fluid{
+  height:100%;
+}
+
+@media (max-width: 1200px) {
+
+ 
+  
+  .card {
+    max-width: 80%;
+  }
+
+  .card-title{
+    margin: auto;
+    font-size: 30px;
+  }
+
+  .card-date {
+  margin-top:40px;
+  font-size: 30px;  
+  }
+
+  .card-temp {
+    margin-top: 270px;
+    font-size: 40px;
+  }
+
+  .card-desc {
+    margin-top: 330px;
+    font-size: 20px;
+  }
+
+  
+}
+
+@media (max-width: 1000px) {
+  .card {
+    max-width: 80%;
+  }
+
+  .card-title{
+    margin: auto;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .card-date {
+  margin-top:100px;
+  font-size: 20px;  
+  }
+
+  .card-temp {
+    margin-top: 400px;
+  }
+
+  .card-desc {
+    margin-top: 450px;
+    font-size: 15px;
+  }
+
+  
+}
+
+@media (max-width: 767px) {
+  .card {
+    max-width: 80%;
+  }
+
+  .card-title{
+    margin: auto;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+  .card-date {
+  margin-top:130px;
+  font-size: 50px;  
+  margin-left: 18%;
+  }
+
+  .card-temp {
+    margin-top: 400px;
+    margin-left: 15%;
+  }
+
+  .card-desc {
+    margin-top: 470px;
+    font-size: 30px;
+    margin-left: 10%;
+  }
+
+  
+}
+
+@media (max-width: 525px) {
+  .card {
+    max-width: 80%;
+  }
+
+  .card-title{
+    margin-left:15%;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .card-date {
+  margin-top:80px;
+  font-size: 40px;  
+  
+  }
+
+  .card-temp {
+    margin-top: 390px;
+    font-size: 50px;
+    margin-left: 15%;
+  }
+
+  .card-desc {
+    margin-top: 450px;
+    font-size: 25px;
+    margin-left: 10%;
+  }
+
+  
+}
+
+@media (max-width: 499px) {
+  .card {
+    max-width: 80%;
+  }
+
+  .card-title{
+    margin-left:15%;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .card-date {
+  margin-top:50px;
+  font-size: 20px;  
+  
+  }
+
+  .card-temp {
+    margin-top: 190px;
+    font-size: 50px;
+    margin-left: 15%;
+  }
+
+  .card-desc {
+    margin-top: 250px;
+    font-size: 15px;
+    margin-left: 10%;
+  }
+
+  
 }
